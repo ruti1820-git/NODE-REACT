@@ -1,0 +1,100 @@
+/* Showrooms.css */
+
+/* הגדרת כיווניות טקסט מימין לשמאל (RTL) */
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Arial', sans-serif; 
+    color: #333;
+}
+
+/* --- Container for each showroom section --- */
+.showroom-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #f8f9fa; /* רקע בהיר לכותרת */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+/* עיצוב כותרות הערים והכתובות */
+.showroom-header-container h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #000000; /* צבע שחור לכותרת העיר (במקום כחול) */
+}
+
+.showroom-header-container h2:nth-child(2) {
+    font-size: 1.2rem;
+    color: #555; 
+}
+
+/* --- 'More Info' Button --- */
+.more-button {
+    background-color: #000000; /* צבע שחור לכפתור (במקום כחול) */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 50px; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    min-width: 120px;
+}
+
+.more-button:hover {
+    background-color: #333333; /* צבע אפור כהה יותר בריחוף */
+    transform: translateY(-2px); 
+}
+
+/* --- Expanded Information (The 'allMore' section) --- */
+.allMore {
+    padding: 30px 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    margin-top: -15px; 
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    z-index: 1; 
+}
+
+/* --- Info Row (3 columns) --- */
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-column {
+    flex: 1;
+    min-width: 250px; 
+    padding: 10px;
+    background-color: #e9ecef; /* רקע אפור בהיר לטור (במקום תכלת בהיר) */
+    border-radius: 8px;
+}
+
+/* עיצוב כותרות הטורים (שעות פתיחה, שירות לקוחות, מנהל סניף) */
+.info-column h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #000000; /* קו הפרדה בצבע שחור (במקום כחול) */
+}
+
+/* עיצוב הטקסט בתוך הטורים */
+.info-column p {
+    margin: 5px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+}

@@ -1,0 +1,21 @@
+.amount{
+  background-color: aqua;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  margin-right: 700px;
+  margin-top: 20px;
+}
+.imageBasket{
+  width: 100px;
+  height: 50px;
+}
+.grid-basket{
+  width: 100px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+}

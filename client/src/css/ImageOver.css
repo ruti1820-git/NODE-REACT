@@ -1,0 +1,78 @@
+/* ImagOver.css */
+
+/* עיצוב המיכל העוטף את הגלריה (.card) */
+.card {
+    display: flex;
+    justify-content: center; /* ממקם את הגלריה במרכז */
+    padding: 20px;
+    margin: 20px 0;
+    /* הוסף רקע, צל או גבולות אם נדרש בהתאם לעיצוב הכללי של הדף */
+}
+
+/* ------------------------------------------- */
+/* התאמה אישית של אינדיקטורי הגלריה (הנקודות) */
+/* ------------------------------------------- */
+
+/* שינוי צבע הנקודות הלא פעילות לאפור בהיר */
+.p-galleria-indicators .p-galleria-indicator button {
+    background-color: #cccccc !important; /* צבע אפור בהיר */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+/* שינוי צבע הנקודה הפעילה לאפור כהה יותר */
+.p-galleria-indicators .p-galleria-indicator.p-highlight button {
+    background-color: #666666 !important; /* צבע אפור כהה */
+}
+/* ImagOver.css */
+
+/* עיצוב המיכל העוטף את הגלריה (.card) */
+.card {
+    display: flex;
+    justify-content: center; /* ממקם את הגלריה במרכז */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* ------------------------------------------- */
+/* התאמה אישית של אינדיקטורי הגלריה (הנקודות) */
+/* ------------------------------------------- */
+
+/* שינוי צבע הנקודות הלא פעילות לאפור בהיר */
+.p-galleria-indicators .p-galleria-indicator button {
+    background-color: #cccccc !important; /* צבע אפור בהיר */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+/* שינוי צבע הנקודה הפעילה לאפור כהה יותר */
+.p-galleria-indicators .p-galleria-indicator.p-highlight button {
+    background-color: #666666 !important; /* צבע אפור כהה */
+}
+
+/* הוספת מרווחים סביב האינדיקטורים */
+.p-galleria-indicators {
+    padding-top: 15px;
+}
+
+/* עיצוב כללי של תמונות בגלריה */
+.p-galleria-content img {
+    display: block;
+}
+/* הוספת מרווחים סביב האינדיקטורים */
+.p-galleria-indicators {
+    padding-top: 15px;
+    /* ב-PrimeReact, ייתכן שהאינדיקטורים מופיעים בצד ימין או שמאל של התמונה.
+       אם אתה רוצה למקם אותם מתחת לתמונה, ייתכן שתצטרך לכוונן את מיקום ה-CSS של
+       p-galleria-indicators בהתאם לעיצוב הספציפי של ה-theme. */
+}
+
+/* עיצוב כללי של תמונות בגלריה */
+.p-galleria-content img {
+    /* לוודא שהתמונות ממלאות את המיכל כראוי */
+    display: block;
+}

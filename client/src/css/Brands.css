@@ -1,0 +1,30 @@
+.brands-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 40px;
+  background-color: #ffff;
+}
+
+.Brands-image {
+  width: 180px;
+  height: auto;
+  width: 170px;
+  padding: 30px;
+  margin: 0;
+  background-color: transparent;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  animation: pulse 3s infinite ease-in-out;
+}
+
+.Brands-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.12); }
+  100% { transform: scale(1); }
+}

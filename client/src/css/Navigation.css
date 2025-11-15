@@ -1,0 +1,108 @@
+body {
+  direction: rtl;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.navigation-container {
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 14px 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navigation-container a,
+.navigation-container span,
+.navigation-container button {
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 8px 12px;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 6px;
+}
+
+.navigation-container a:hover,
+.navigation-container button:hover {
+  color: #007bff;
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.products-menu-wrapper {
+  position: relative;
+}
+
+.products-main-link {
+  cursor: pointer;
+}
+
+.AllLinkProducts {
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  min-width: 180px;
+  overflow: hidden;
+  z-index: 200;
+}
+
+.LinkProducts {
+  display: block;
+  padding: 10px 16px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+.LinkProducts:last-child {
+  border-bottom: none;
+}
+
+.LinkProducts:hover {
+  background-color: #f5f7fa;
+  color: #007bff;
+}
+
+.cart-icon-link {
+  display: flex;
+  align-items: center;
+  color: #007bff;
+  padding: 8px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icon-link {
+  color: #555;
+  padding: 6px;
+  border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon-link:hover {
+  background-color: #f0f0f0;
+  color: #007bff;
+}
+
+.logo-image {
+  height: 60px;
+  margin-right: 10px;
+  width: 90px;
+}

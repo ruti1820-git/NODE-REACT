@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to top right, #fdfbfb, #ebedee);
+    direction: rtl;
+  }
+  
+  .loginPage {
+    max-width: 360px;
+    margin: 100px auto;
+    padding: 30px 40px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .loginPage h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  .loginPage input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+  }
+  
+  .loginPage input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.2);
+  }
+  
+  .butten-login {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .butten-login:hover {
+    background-color: white;
+    color: black;
+
+  }
+  
