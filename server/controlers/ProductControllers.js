@@ -40,7 +40,6 @@ const deleteProduct = async (req, res) => {
 
      
 };
-const sssss;
 
 const updateProduct = async (req, res) => {
     
